@@ -4,10 +4,10 @@ from datetime import datetime, timedelta
 import random
 
 # Configuration d'InfluxDB
-url = "http://localhost:8086"  # Adresse de votre serveur InfluxDB
-token = "admin123"             # Token ou mot de passe administrateur
-org = "my-org"                 # Organisation dans InfluxDB
-bucket = "mydb"                # Nom du bucket dans InfluxDB
+url = "http://localhost:8086"
+token = "my-super-secret-token"
+org = "myorg"
+bucket = "mybucket"
 
 # Initialiser le client InfluxDB
 client = InfluxDBClient(url=url, token=token, org=org)
