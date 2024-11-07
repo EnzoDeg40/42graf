@@ -15,4 +15,4 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: Build the Docker project
-      run: docker-compose up -d --build
+      run: docker compose up -d --build
